@@ -1,0 +1,284 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+}
+
+/*********************************************************************
+***************************HEADER*************************************
+*********************************************************************/
+
+header{
+    background-image: url('../images/payments-banner-graphic.png');
+    height: 66%;
+    background-size: cover;
+}
+
+#logo{
+    display: block;
+    vertical-align: middle;
+    color: white;
+    text-decoration: none;
+    height: 0;
+}
+
+#logo img{
+    vertical-align: middle; 
+    height: 5em;
+    padding: 1%;
+}
+
+#logo span{
+    font-size: 3em;
+    vertical-align: middle;
+}
+
+nav{
+  margin-top: 1%;
+  float: right;
+}
+
+nav li{
+    display: inline;
+    margin: 2em;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+}
+
+#header_main{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#header_main h3{
+    padding: 0 0 2% 0;
+    font-family: 'Lora';
+    font-weight: lighter;
+}
+
+#create_account{
+    color: #8080BE;    
+    background-color: white;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+}
+
+/*********************************************************************
+***************************HEADER END*************************************
+*********************************************************************/
+
+/*********************************************************************
+***************************SUMMARY*************************************
+*********************************************************************/
+
+#summary{
+    width: 100%;
+    height: 33%;
+    box-shadow: 0 1px 4px #4D4D4D;
+}
+
+.summary_div{
+    display: inline-block;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 3%;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.summary_div h3{
+    font-weight: lighter;
+}
+
+.summary_div img{
+    height: 6em;
+}
+
+/*********************************************************************
+***************************SUMMARY END*************************************
+*********************************************************************/
+
+/*********************************************************************
+***************************PRICING METHOD*************************************
+*********************************************************************/
+
+#pricing_method{
+    text-align: center;
+    color: #777777;
+    padding-top: 3%;
+    height: 33%;
+}
+
+#pricing_method h3{
+    font-size: 2em;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#price{
+    margin-top: 3%;
+}
+
+#price h1{
+    color: #8080BE;
+    font-size: 4em;
+    font-weight: lighter;
+    display: inline;
+    vertical-align: middle;
+}
+
+#price h2{
+    display: inline;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#price h5{
+    margin: 0;
+    margin-left: 5em;
+    vertical-align: middle;
+    margin-top: -2em;
+}
+
+/*********************************************************************
+***************************PRICING METHOD END*************************************
+*********************************************************************/
+
+#cc_support{
+    background-color: #4C535C;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8em;
+    height: 10%;
+    margin: 0;
+    padding-top: 3%;
+}
+
+
+/*********************************************************************
+***************************DEMO*************************************
+*********************************************************************/
+
+.page_block{
+    display: inline;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-weight: lighter;
+    color: #999999;
+    overflow: hidden;
+    box-shadow: 1px 1px;
+}
+
+.page_block img{
+    height: 95%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.page_block p, .page_block h3{
+   max-width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#block_one, #block_three, #block_five{
+    float: left;
+}
+
+#block_two, #block_four, #block_six{
+    float: right;
+}
+
+
+#block_one, #block_five{
+    background-color: #7CD5EF;
+}
+
+#block_four{
+    background-color: #8080BE;
+}
+
+#block_two h3, #block_three h3, #block_five h3{
+    margin-top: 5%;
+}
+
+/*********************************************************************
+***************************DEMO END*************************************
+*********************************************************************/
+
+/*********************************************************************
+***************************RELANCE*************************************
+*********************************************************************/
+.relance{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+.relance a{
+}
+
+.relance h3{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2em;
+    color: #4D4D4D;
+    margin: 0;
+}
+
+.relance h3 strong{
+    font-weight: bold;
+}
+
+#create_account_bottom{
+    color: white;    
+    background-color: #00AA83;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+}
+/*********************************************************************
+***************************RELANCE END*************************************
+*********************************************************************/
+
+/*********************************************************************
+***************************FOOTER*************************************
+*********************************************************************/
+footer{
+    background-color: #242629;
+    color: #AAAAAA;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+/*********************************************************************
+***************************FOOTER END*************************************
+*********************************************************************/
+
+#bubble{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 2em;
+    background-color: #8080BE;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+
